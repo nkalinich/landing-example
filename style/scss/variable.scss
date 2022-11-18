@@ -1,0 +1,53 @@
+// VARIABLES
+
+$main_bg_color: linear-gradient(90deg, #040013 0%, #42063F 54.31%, #3A047D 99.9%);
+$text-color: #3E4857;
+$text_light: #ffffff;
+$text_acent: #D63864;
+$button_color: #67AC5B;
+$button_color_hover: #3f51b5;
+$bg: #e5e5e5;
+$border-color: #C9C9C9;
+
+$border: 1px solid $border-color;
+$line-height: 150%;
+
+
+// TEMPLATES
+
+%title_tpl {
+    font-family: 'Arial', sans-serif;
+	font-weight: 700;
+	line-height: $line-height;
+	color: $text-color;
+}
+
+%text_tpl {
+    font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+    line-height: $line-height;
+	color: $text-color;
+}
+
+%button_tpl {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: $button_color;
+    color: $text_light;
+	border: none;
+	border-radius: 4px;
+    padding: 14.5px 32px;
+    transition: .3s;
+
+    &:hover {
+		background-color: $button_color_hover;
+		transition: .3s;
+	}
+}
+
+
+
+
+
